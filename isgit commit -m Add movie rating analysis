@@ -1,0 +1,28 @@
+[1mdiff --git a/analysis.py b/analysis.py[m
+[1mindex 0c8ec57..1b79934 100644[m
+[1m--- a/analysis.py[m
+[1m+++ b/analysis.py[m
+[36m@@ -1,7 +1,8 @@[m
+ # Movie Rating Analysis[m
+ [m
+[31m-movies = ["Dangal", "3 Idiots", "Jawan", "Pathaan"][m
+[31m-ratings = [9, 10, 8, 7][m
+[32m+[m[32mmovies = ["Dangal", "3 Idiots", "Jawan", "Pathaan", "Zindagi Na Milegi Dobara"][m
+[32m+[m
+[32m+[m[32mratings = [9, 10, 8, 7, 9][m
+ [m
+ print("MOVIE RATING ANALYSIS")[m
+ print("---------------------")[m
+[36m@@ -17,4 +18,9 @@[m [mprint("Average Rating:", average)[m
+ highest = ratings.index(max(ratings))[m
+ [m
+ print("Highest Rated Movie:", movies[highest])[m
+[31m-print("Highest Rating:", ratings[highest])[m
+\ No newline at end of file[m
+[32m+[m[32mprint("Highest Rating:", ratings[highest])[m
+[32m+[m
+[32m+[m[32mlowest = ratings.index(min(ratings))[m
+[32m+[m
+[32m+[m[32mprint("Lowest Rated Movie:", movies[lowest])[m
+[32m+[m[32mprint("Lowest Rating:", ratings[lowest])[m
+\ No newline at end of file[m
